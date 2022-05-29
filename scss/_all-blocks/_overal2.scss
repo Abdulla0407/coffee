@@ -1,0 +1,42 @@
+.overal2 {
+    margin: auto;
+
+    &__container2 {
+    
+        margin-top: 168px;
+        padding-left: 295px;
+        display: -webkit-box;
+        
+    }
+    
+    &__img {
+        border-radius: 8px;
+    }
+    
+    &__iteam {
+        margin-top: 95px;
+        margin-left: 125px;
+        font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--dark-grey-blue);
+    
+    }
+    
+    &__text {
+        width: 540px;
+        margin-left: 125px;
+        margin-top: 32px;
+        font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--dark-grey-blue);
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    }
+    
+}

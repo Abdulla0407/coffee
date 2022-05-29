@@ -1,0 +1,57 @@
+.hero{
+&__container{
+    background-image: url(../images/hero-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+    padding-top: 117px;
+    padding-bottom: 116px;
+}
+
+
+    &__great{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 80px;
+        margin-left: 86px;
+        width: 493px;
+        color: #FEFCF7;
+        margin-bottom: 32px;
+    }
+    &__text{
+        width: 445px;
+        margin-left: 86px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color:#FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+    
+    &__button{
+        white-space: nowrap;
+        width: 217px;
+        height: 56px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        background:#0E8784;
+        border-radius: 6px;
+        margin-top: 56px;
+        margin-left: 86px;
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+        cursor: pointer;
+        border: none;
+    }
+
+}

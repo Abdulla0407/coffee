@@ -1,0 +1,35 @@
+.hero2__container2 {
+    background-image: url(../images/hero-img2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+    padding-bottom: 60px;
+
+    &__abaut {
+        padding-top: 137px;
+        padding-left: 85px;
+        
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color:var(--light-cream);
+    }
+    
+    &__text2 {
+        width: 445px;
+        margin-left: 85px;
+        margin-top: 24px;
+        padding-bottom: 137px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: var(--light-cream);
+        
+    }
+    
+    
+}

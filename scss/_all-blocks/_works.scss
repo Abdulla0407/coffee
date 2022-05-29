@@ -1,0 +1,118 @@
+.works__container {
+    margin-top: 200px;
+
+    &__header {
+        margin-left: 165px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: var($grey);
+    }
+    &__path {
+        margin-left: 180px;
+        margin-top: 95px;
+        width: 760px;
+        height: 0;
+        border: 2px solid var($pale-orange);
+    }
+    &__circle {
+        margin-top: -18px;
+        margin-left: 165px;
+        width: 31px;
+        height: 31px;
+        background: var($light-cream);
+        border: 2px solid var($cyan);
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+    &__circle2 {
+        margin-top: -30px;
+        margin-left: 545px;
+        width: 31px;
+        height: 31px;
+        background: var($light-cream);
+        border: 2px solid var($cyan);
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+    &__circle3 {
+        margin-top: -32px;
+        margin-left: 925px;
+        width: 31px;
+        height: 31px;
+        background: var($light-cream);
+        border: 2px solid var($cyan);
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+    
+    &__div {
+        display: flex;
+        
+    }
+    
+    &__medium {
+        margin-left: 165px;
+        margin-top: 67px;
+        width: 285px;
+        
+    }
+    
+    &__medium2 {
+        margin-left: 95px;
+        margin-top: 67px;
+        width: 285px;
+        
+    }
+    
+    &__medium3 {
+        margin-left: 95px;
+        margin-top: 67px;
+        width: 285px;
+    }
+    
+    &__iteam {
+        width: 255px;
+        margin-top: 38px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: var($dark-grey-blue);
+    }
+    
+    &__text {
+        margin-top: 42px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: var($dark-grey-blue);
+    }
+    
+    &__button {
+        margin-top: 64px;
+        margin-left: 165px;
+        width: 217px;
+        height: 56px;
+        background: var($cyan);
+        border-radius: 6px;
+        border: none;
+    }
+    
+    &__btn{
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: var($light-cream);
+    }
+    
+    
+}

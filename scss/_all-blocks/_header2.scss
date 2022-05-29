@@ -1,0 +1,30 @@
+.header2 {
+    &__container {
+        display: flex;
+        position: sticky;
+        align-items: center;
+        margin-top: 44px;
+        margin-bottom: 45px;
+}
+
+    &__list {
+        margin-top: 5px;
+        margin-left: 761px;
+        width: 283px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+    &__link {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: var(--grey);
+    }
+}

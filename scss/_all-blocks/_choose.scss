@@ -1,0 +1,108 @@
+.choose{
+    
+    & {
+    margin-bottom: 351px;
+    }
+
+    &__container {
+    
+        margin-top: 176px;
+        background-color: #2C343E;
+        height: 577px;
+        padding-top: 100px;
+        
+    }
+    
+    &__wrapper{
+        width: 540px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    
+    &__heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        color:$light-cream;
+    }
+    &__text {
+        
+        border: 2px solid red;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        padding-top: 32px;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center; 
+        color: $light-cream; 
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+    
+    .chose__list {
+        margin-top: 86px;
+        margin-left: 145px;
+        width: 1110px;
+        
+    }
+    
+    &__iteam {
+        background:$cyan;
+        border-radius: 8px;
+        align-items: center;
+        width: 350px;
+    }
+    
+    &__iteam2 {
+        margin-left: 30px;
+        background:$cyan;
+        border-radius: 8px;
+        align-items: center;
+        width: 350px;
+        
+    }
+    
+    &__iteam3 {
+        margin-left: 30px;
+        background:$cyan;
+        border-radius: 8px;
+        align-items: center;
+        width: 350px;
+        
+    }
+    
+    &__img {
+        padding-top: 72px;
+        padding-left: 136px;
+    }
+    
+    &__clan {
+        font-family: 'Fraunces';
+        padding-top: 56px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: $light-cream;
+        
+    }
+    
+    &__text {
+        width: 255px;
+        font-family: 'Barlow';
+        padding-left: 47px;
+        padding-top: 24px;
+        padding-bottom: 48px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: $light-cream;
+    }
+}
