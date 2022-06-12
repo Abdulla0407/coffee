@@ -1,0 +1,131 @@
+@media only screen and (max-width: 768px) {
+    .works {
+        
+        & {
+            
+            margin-bottom: 200px;
+        }
+        
+        &__container {
+            margin-top: 200px;
+        }
+        
+        &__header {
+            width: 255px;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: $grey;
+        }
+        &__path {
+            
+            margin-top: 95px;
+            width: 472px;
+            height: 0;
+            border: 1px solid $pale-orange;
+        }
+        &__circle {
+            margin-top: -18px;
+            
+            width: 31px;
+            height: 31px;
+            background: $light-cream;
+            border: 2px solid $cyan;
+            box-sizing: border-box;
+            border-radius: 20px;
+        }
+        &__circle2 {
+            margin-top: -30px;
+            margin-left: 230px;
+            width: 31px;
+            height: 31px;
+            background: $light-cream;
+            border: 2px solid $cyan;
+            box-sizing: border-box;
+            border-radius: 20px;
+        }
+        &__circle3 {
+            margin-top: -32px;
+            margin-left: 474px;
+            width: 31px;
+            height: 31px;
+            background: $light-cream;
+            border: 2px solid $cyan;
+            box-sizing: border-box;
+            border-radius: 20px;
+        }
+        
+        &__div {
+            display: flex;
+            
+        }
+        
+        &__medium {
+            margin-top: 67px;
+            width: 285px;
+            
+        }
+        
+        &__medium2 {
+            margin-left: 10px;
+            margin-top: 67px;
+            width: 285px;
+        }
+        
+        &__medium3 {
+            margin-left: 10px;
+            margin-top: 67px;
+            width: 285px;
+        }
+        
+        &__iteam {
+            width: 223px;
+            margin-top: 38px;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 32px;
+            color: $dark-grey-blue;
+        }
+        
+        &__text {
+            text-align: left;
+            width: 223px;
+            height: 154px;
+            margin-top: 42px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: $dark-grey-blue;
+        }
+        
+        &__button {
+            margin-top: 64px;
+            white-space: nowrap;
+            width: 217px;
+            height: 56px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            background:#0E8784;
+            border-radius: 6px;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            color: #FEFCF7;
+            cursor: pointer;
+            border: none;
+        }
+        
+        a:visited {
+            color: white;
+        }
+    }
+}

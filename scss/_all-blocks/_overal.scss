@@ -1,28 +1,24 @@
 .overal {
-  &__container {
-      margin-top: 136px;
-    background-image: url(../images/orta-img.png);
-    background-repeat: no-repeat;
-    background-position: top;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
+    &__container {
+        margin-top: 136px;
+        background-image: url(../images/orta-img.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        display: flex;
+        align-items: center;
     }
     
     &__list {
         margin-top: 136px;
         width:  1111px;
-        
     }
-
+    
     &__iteam {
-        align-items: center;
+        
         width: 255px;
-        margin-top: -110px;
-        
-        
+        margin-top: -8px;
     }
-
+    
     .item__subig {
         margin-bottom: 24px;
         font-family: 'Fraunces';
@@ -31,9 +27,9 @@
         font-size: 24px;
         line-height: 32px;
         text-align: center;
-       
+        
     }
-
+    
     &__text {
         text-align: center;
         font-family: 'Barlow';

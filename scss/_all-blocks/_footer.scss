@@ -1,0 +1,50 @@
+    .footer {
+        
+        &__container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #2C343E;
+            padding: 52px 85px;
+        }
+        
+        &__div {
+            display: flex;
+        }
+        
+        &__ul {
+            margin-left: 54px;
+            margin-left: 103px;
+            width: 283px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        &__1 {
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 0.923077px;
+            text-transform: uppercase;
+            color: var($grey);
+            
+        }
+        
+        
+        .part__div {
+            
+            & {
+                letter-spacing: 24px;
+                margin-top: 25px;
+            }
+            
+            
+        }
+            
+            a:visited {
+                color: white;
+            }
+        }

@@ -29,8 +29,7 @@
         color:$light-cream;
     }
     &__text {
-        
-        border: 2px solid red;
+        margin-bottom: 86px;
         font-family: 'Barlow';
         font-style: normal;
         font-weight: 400;
@@ -43,11 +42,16 @@
         opacity: 0.8;
     }
     
-    .chose__list {
-        margin-top: 86px;
-        margin-left: 145px;
+    &__div {
+       
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__list {
         width: 1110px;
-        
+
     }
     
     &__iteam {
@@ -92,7 +96,16 @@
         
     }
     
-    &__text {
+    &__iteam-header {
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #FEFCF7;
+    }
+
+    &__iteam-text {
         width: 255px;
         font-family: 'Barlow';
         padding-left: 47px;

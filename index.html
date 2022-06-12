@@ -8,9 +8,16 @@
     <title>2-dars</title>
 </head>
 <body>
+     
+    
     <header class="header">
         <div class="container header__container">
-            <img src="./images/header-logo.svg" alt="header-logo">
+            <img class="header__logo" src="./images/header-logo.svg" alt="header-logo" >
+            
+            <button class="burger-button">
+                <img class="open" src="./images/open-btn.svg" alt="">
+                <img class="close" src="./images/close-btn.svg" alt="">
+            </button>
 
             <ul class="header__list">
                 <li class="header__iteam">
@@ -25,147 +32,167 @@
             </ul>
         </div>
     </header>
-
+    
     <main class="main">
+        
         <section class="hero">
             <div class="container hero__container">
-            <h2 class="hero__great">Great coffee
-                made simple.</h2>
-             <p class="hero__text">Start your mornings with the worlds best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
-             <div class="btn">
-             <a href="#"><button type="" class="hero__button ">Create your plan</button></a>
-            </div>
-            </div>
-        </section>
-
-        <section class="overal">
-            <div class="container overal__container"> 
-                <ul class="overal__list">
-                    <li class="overal__iteam">
-                        <img src="./images/cofy-green.svg" alt="cofy-green">
-                        <h2 class="item__subig">Gran Espresso</h2>
-                        <h4 class="overal__text">Light and flavorful blend with cocoa and black pepper for an intense experience.</h4>
-                    </li>
-
-                    <li class="overal__iteam">
-                        <img  src="./images/cofy-yellow.svg" alt="cofy-yellow">
-                        <h2 class="item__subig">Planalto</h2>
-                        <h4 class="overal__text">Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.</h4>
-                    </li>
-
-                    <li class="overal__iteam">
-                        <img src="./images/cofy-braun.svg" alt="cofy-braun">
-                        <h2 class="item__subig">Piccollo</h2>
-                        <h4 class="overal__text">Mild and smooth blend featuring notes of toasted almond and dried cherry.</h4>
-                    </li>
-
-                    <li class="overal__iteam">
-                        <img src="./images/cofy-braun.svg" alt="cofy-braun">
-                        <h2 class="item__subig">Danche</h2>
-                        <h4 class="overal__text">Ethiopian hand-harvested blend densely packed with vibrant fruit notes.</h4>
-                    </li>
-                </ul>
-            </div>
-        </section>
-    </main>
-
-    <!-- CHOOSE -->
-    <main>
-    <section class="choose">
-        <div class="container choose__container">
-            <div class="choose__wrapper">
-                <h3 class="choose__heading">Why choose us?</h3>
-                <p class="choose__text">A large part of our role is choosing which particular coffees will be featured 
-                    in our range. This means working closely with the best coffee growers to give 
-                    you a more impactful experience on every level.</p>
-            </div>
-        
-          <div class="chose__div">
-            <ul class="chose__list">
-               <li class="chose__iteam">
-                   <img class="chose__img" src="./images/wrap-cofe.svg" alt="wrap-cofe">
-                   <h1 class="chose__clan">Best quality</h1>
-                   <p class="chose__text">Discover an endless variety of the worlds best artisan coffee from each of our roasters.</p>
-                </li>
-
-                <li class="choos__iteam2">
-                    <img class="choos__img" src="./images/wrap-2.svg" alt="wrap-2">
-                    <h1 class="chose__iteam__headre">Exclusive benefits</h1>
-                    <p class="chose__text">Special offers and swag when you subscribe, including 30% off your first shipment.</p>
-                </li>
-
-                    <li class="choos__iteam3">
-                        <img class="choos__img" src="./images/wrap-car.svg" alt="wrap-car">
-                        <h1 class="chose__iteam__headre">Free shipping</h1>
-                        <p class="chose__text">We cover the cost and coffee is delivered fast. Peak freshness: guaranteed..</p>
-                    </li>
-            </ul>
-           </div>
-        </div>
-    </section>
-
-
-
-    <section class="works">
-        <div class="container works__container">
-            <h1 class="works__header">How it works</h1>
-            <div class="works__path"></div>
-            <div class="works__circle"></div>
-            <div class="works__circle2"></div>
-            <div class="works__circle3"></div>
-
-         <div class="works__div">  
-            <div class="works__medium">
-                <img src="./images/01.png" alt="01">
-                <h1 class="works__iteam">Pick your coffee</h1>
-                    <p class="works__text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
-            </div>
-            <div class="works__medium2">
-                <img src="./images/02.png" alt="01">
-                <h1 class="works__iteam">Pick your coffee</h1>
-                    <p class="works__text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
-            </div>
-            <div class="works__medium3">
-                <img src="./images/03.png" alt="01">
-                <h1 class="works__iteam">Pick your coffee</h1>
-                    <p class="works__text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
-            </div>
-         </div> 
-            <button class="works__button">
-                <a class="works__btn" href="#">Create your plan</a>
-            </button>
-        </div>
-    </section>
-
-    <section class="lowerpart">
-        <div class="container lowerpart__container">
-            <div class="lowerpart__div">
+                <h2 class="hero__great">Great coffee
+                    made simple.</h2>
+                    <p class="hero__text">Start your mornings with the worlds best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
+                    <div class="btn">
+                        <a href="#"><button type="" class="coffee-button hero__button ">Create your plan</button></a>
+                    </div>
+                </div>
+            </section>
             
-                <img src="./images/low-logo.svg" alt="low-logo">
+            <section class="overal">
+                <div class="container overal__container"> 
+                    <ul class="overal__list">
+                        <li class="overal__iteam">
+                            <img class="overal__img" src="./images/cofy-green.svg" alt="cofy-green" >
+                            <div class="overal__wrapper">
+                                <h2 class="item__subig">Gran Espresso</h2>
+                                <h4 class="overal__text">Light and flavorful blend with cocoa and black pepper for an intense experience.</h4>
+                            </div>
+                            
+                        </li>
+                        
+                        <li class="overal__iteam">
+                            <img class="overal__img" src="./images/cofy-yellow.svg" alt="cofy-yellow">
+                            <div class="overal__wrapper">
+                                <h2 class="item__subig">Planalto</h2>
+                                <h4 class="overal__text">Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.</h4>
+                            </div>
+                        </li>
+                        
+                        <li class="overal__iteam">
+                            <img class="overal__img" src="./images/cofy-braun.svg" alt="cofy-braun">
+                            <div class="overal__wrapper">
+                                <h2 class="item__subig">Piccollo</h2>
+                                <h4 class="overal__text">Mild and smooth blend featuring notes of toasted almond and dried cherry.</h4>
+                            </div>
+                        </li>
+                        
+                        <li class="overal__iteam">
+                            <img class="overal__img" src="./images/cofy-braun.svg" alt="cofy-braun">
+                            <div class="overal__wrapper">
+                                <h2 class="item__subig">Danche</h2>
+                                <h4 class="overal__text">Ethiopian hand-harvested blend densely packed with vibrant fruit notes.</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="choose">
+                <div class="container choose__container">
+                    <div class="choose__wrapper">
+                        <h3 class="choose__heading">Why choose us?</h3>
+                        <p class="choose__text">A large part of our role is choosing which particular coffees will be featured 
+                            in our range. This means working closely with the best coffee growers to give 
+                            you a more impactful experience on every level.</p>
+                        </div>
+                        
+                        <div class="choose__div">
+                            <ul class="choose__list">
+                                <li class="choose__iteam">
+                                    <img class="choose__img" src="./images/wrap-cofe.svg" alt="wrap-cofe">
+                                    <div class="choose__clas">
+                                    <h1 class="choose__clan">Best quality</h1>
+                                    <p class="choose__iteam-text">Discover an endless variety of the worlds best artisan coffee from each of our roasters.</p>
+                                </div>
+                                </li>
+                                
+                                <li class="choose__iteam">
+                                    <img class="choose__img" src="./images/wrap-2.svg" alt="wrap-2">
+                                    <div class="choose__clas">
+                                    <h1 class="choose__clan">Exclusive benefits</h1>
+                                    <p class="choose__iteam-text">Special offers and swag when you subscribe, including 30% off your first shipment.</p>
+                                </div>
+                                </li>
+                                
+                                <li class="choose__iteam">
+                                    <img class="choose__img" src="./images/wrap-car.svg" alt="wrap-car">
+                                    <div class="choose__clas">
+                                    <h1 class="choose__clan">Free shipping</h1>
+                                    <p class="choose__iteam-text">We cover the cost and coffee is delivered fast. Peak freshness: guaranteed..</p>
+                                </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="works">
+                    <div class="container works__container">
+                        <h1 class="works__header">How it works</h1>
+                        <div class="works__path"></div>
+                        <div class="works__circle"></div>
+                        <div class="works__circle2"></div>
+                        <div class="works__circle3"></div>
+                        <div class="works__div">  
+                            <div class="works__medium">
+                                <img src="./images/01.png" alt="01">
+                                <h1 class="works__iteam">Pick your coffee</h1>
+                                <p class="works__text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+                            </div>
+                            <div class="works__medium2">
+                                <img src="./images/02.png" alt="01">
+                                <h1 class="works__iteam">Pick your coffee</h1>
+                                <p class="works__text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+                            </div>
+                            <div class="works__medium3">
+                                <img src="./images/03.png" alt="01">
+                                <h1 class="works__iteam">Pick your coffee</h1>
+                                <p class="works__text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+                            </div>
+                        </div> 
+                        <button class="works__button">
+                            <a class="coffee-button works__btn" href="#">Create your plan</a>
+                        </button>
+                    </div>
+                </section>
+                
+            </main>
 
-                <ul class="lowerpart__ul">
-                    <li>
-                        <a  class="lowerpart__1" href="#">HOME</a>
-                    </li>
-                    <li>
-                        <a class="lowerpart__2" href="#">ABOUT US</a>
-                    </li>
-                    <li>
-                        <a class="lowerpart__3" href="#">Create your plan</a>
-                    </li>
-                </ul>
-            </div>
+                <footer class="footer">
+                    <div class="container footer__container"> 
+                            <div class="footer__first">
+                                <img class="footer__img" src="./images/low-logo.svg" alt="low-logo"  width="236" height="26">
+                            </div>
+                           
+                            <div class="footer__div">
+                            <ul class="footer__ul">
+                                <li>
+                                    <a  class="footer__1" href="#">HOME</a>
+                                </li>
+                                <li>
+                                    <a class="footer__1" href="#">ABOUT US</a>
+                                </li>
+                                <li>
+                                    <a class="footer__1" href="#">Create your plan</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="part__div">
+                            <img class="part__img" src="./images/part__fesebuk.svg" alt="part__fesebuk">
+                            <img class="part__images" src="./images/part__twitter.svg" alt="part__twitter">
+                            <img class="part__imag" src="./images/part__inst.svg" alt="part__inst">
+                        </div>
+                    </div>
+                </footer>
 
-             <div class="img__div">
-                 <img class="part__img" src="./images/part__fesebuk.svg" alt="part__fesebuk">
-                 <img class="part__images" src="./images/part__twitter.svg" alt="part__twitter">
-                 <img class="part__imag" src="./images/part__inst.svg" alt="part__inst">
-             </div>
-        </div>
-    </section>
-    <footer class="footer">
+                <script src="/js/main.js"></script>
 
-    </footer>
-</main>
-</body>
-</html>
+        </body>
+        </html>
+        
+        <!-- git remote add origin https://github.com/Abdulla0407/responsive-coffee-home-page.git
+            git branch -M main
+            git push -u origin main
+            
+            git init
+            git add .
+            git commit -m "a" -->

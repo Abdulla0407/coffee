@@ -9,3 +9,24 @@ ul{
 a{
     text-decoration: none;
 }
+
+.coffe__button{
+    white-space: nowrap;
+    width: 217px;
+    height: 56px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background:#0E8784;
+    border-radius: 6px;
+    margin-top: 56px;
+    margin-left: 86px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    cursor: pointer;
+    border: none;
+}

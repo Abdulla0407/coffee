@@ -1,0 +1,70 @@
+@media only screen and (max-width: 768px) {
+    
+    .container {
+        max-width: 689px;
+        width: 100%;
+        padding: 0;
+        
+    }
+
+    .burger-button {
+        display: block;
+    }
+    
+    .header {
+        
+        & {
+            margin-bottom: 54px;
+            padding: 0px 46px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    section {
+        padding: 0;
+        margin: 0;
+    }
+
+    .container{
+        max-width: 323px;
+        width: 100%;
+        padding: 0;
+        margin: auto;
+    }
+
+    .header {
+
+        & { 
+            margin-top: 30px;
+           padding: 10px 0px;
+        }
+
+        &__logo {
+            width: 163px;
+            padding-left: 0;
+        }
+
+        &__list {
+            display: none;
+        }
+
+        .burger-button {
+            border: none;
+            display: block;
+        }
+
+        .close {
+            display: none;
+        }
+
+        .menu--open .header__list {
+            position: absolute;
+            background-color: red;
+            width: 100%;
+            height: 100vh;
+        }
+
+    }
+}

@@ -1,0 +1,27 @@
+@media only screen and (max-width: 768px) {
+    .footer {
+        .container {
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 54px;
+        }
+
+        &__first {
+            width: 236px;
+            padding-top: 54px;
+            margin-bottom: 33px;
+        }
+
+        &__div {
+            width: 283px;
+        }
+
+        &__list {
+            width: 283px;
+        }
+
+        &__ul {
+            margin: 0;
+        }
+    }    
+    }

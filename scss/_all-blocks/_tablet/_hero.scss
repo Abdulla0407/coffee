@@ -1,0 +1,92 @@
+@media only screen and (max-width: 768px) {
+    .hero{
+        
+        &__container{
+            background-image: url(../images/hero-img.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: -220px;
+            border-radius: 6px;
+            padding-top: 117px;
+            padding-bottom: 116px;
+        }
+        
+        &__great{
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 48px;
+            line-height: 48px;
+            margin-left: 58px;
+            width: 329px;
+            color: $light-cream;
+            margin-bottom: 32px;
+        }
+        &__text{
+            width: 398px;
+            margin-left: 58px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color:$light-cream;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+        
+        .coffee-button{
+            white-space: nowrap;
+            width: 217px;
+            height: 56px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            background:#0E8784;
+            border-radius: 6px;
+            margin-top: 56px;
+            margin-left: 58px;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            color: $light-cream;
+            cursor: pointer;
+            border: none;
+        }
+        
+    } 
+}
+
+@media only screen and (max-width: 375px) {
+    .hero {
+        
+        
+        &__container {
+            background-position: -520px;
+        }
+        
+        &__great {
+            width: 289px;
+            height: 81px;
+            margin-left: 24px;
+            font-weight: 900;
+            align-items: center;
+            font-size: 40px;
+            line-height: 40px;
+        }
+        
+        &__text {
+            width: 297px;
+            height: 101px;
+            margin-left: 20px;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            align-items: center;
+        }
+    }
+}

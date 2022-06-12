@@ -1,8 +1,15 @@
-.works__container {
-    margin-top: 200px;
+    .works {
+    
+        & {
+            margin-bottom: 200px;
+        }
+
+    &__container {
+        margin-top: 200px;
+    }
 
     &__header {
-        margin-left: 165px;
+        
         font-family: 'Fraunces';
         font-style: normal;
         font-weight: 900;
@@ -11,7 +18,7 @@
         color: var($grey);
     }
     &__path {
-        margin-left: 180px;
+        
         margin-top: 95px;
         width: 760px;
         height: 0;
@@ -19,7 +26,7 @@
     }
     &__circle {
         margin-top: -18px;
-        margin-left: 165px;
+        
         width: 31px;
         height: 31px;
         background: var($light-cream);
@@ -29,7 +36,6 @@
     }
     &__circle2 {
         margin-top: -30px;
-        margin-left: 545px;
         width: 31px;
         height: 31px;
         background: var($light-cream);
@@ -39,7 +45,7 @@
     }
     &__circle3 {
         margin-top: -32px;
-        margin-left: 925px;
+        
         width: 31px;
         height: 31px;
         background: var($light-cream);
@@ -54,16 +60,16 @@
     }
     
     &__medium {
-        margin-left: 165px;
+        
         margin-top: 67px;
         width: 285px;
         
     }
     
     &__medium2 {
+        width: 285px;
         margin-left: 95px;
         margin-top: 67px;
-        width: 285px;
         
     }
     
@@ -96,23 +102,26 @@
     
     &__button {
         margin-top: 64px;
-        margin-left: 165px;
+    
+        white-space: nowrap;
         width: 217px;
         height: 56px;
-        background: var($cyan);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        background:#0E8784;
         border-radius: 6px;
-        border: none;
-    }
-    
-    &__btn{
-        font-family: 'Fraunces 9pt';
+        font-family: 'Fraunces';
         font-style: normal;
         font-weight: 900;
         font-size: 18px;
         line-height: 25px;
         text-align: center;
-        color: var($light-cream);
+        color: #FEFCF7;
+        cursor: pointer;
+        border: none;
     }
-    
-    
+
+    a:visited {
+        color: white;
+    }
 }

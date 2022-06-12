@@ -1,0 +1,90 @@
+@media only screen and (max-width: 768px) {
+    .overal {
+        &__container {
+            margin-top: 144px;
+            background-size: 689px;
+            background-image:  url(../images/orta-img.png);
+            background-repeat: no-repeat;
+            background-position: top;
+        }
+        
+        
+        
+        
+        &__list {
+            margin-top: 83px;
+            display: block;
+            text-align: center;
+        }
+        
+        &__iteam {
+            margin-bottom: 50px;          
+            display: flex;
+        }
+        
+        &__img {
+            margin-left: 58px;
+        }
+        
+        .item__subig {
+            margin-top: 24px;
+            width: 255px;
+            margin-bottom: 24px;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            
+        }
+        
+        &__text {
+            margin-top: 24px;
+            width: 282px;
+            text-align: center;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            color: $dark-grey-blue;
+            
+        }
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .overal {
+        &__container {
+            
+            background-size: 286px;
+        }
+        
+        &__img {
+            margin-left: 0;
+        }
+        
+        &__iteam {
+            
+            margin: 48px;
+            
+            display: block;
+            margin-left: 20px;
+        }
+        
+        &__wrapper {
+            padding-top: 0;
+            margin-top: 24px;
+            
+        }
+        
+        &__text {
+            width: 282px;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+}
